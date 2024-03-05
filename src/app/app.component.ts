@@ -7,6 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   tableData: any;
+  formFields: any = [
+    { label: 'first name', type: 'text', fieldType: 'input', placeholder: 'Enter your full name', required: true, minLength: 3 },
+    { label: 'gender', fieldType: 'select', placeholder: 'Select your Gender', required: true, options: ['Male', 'Female'], multiple: false },
+    { label: 'date of birth', fieldType: 'datePicker', placeholder: 'Select your DOB', required: true, max: new Date() },
+    { label: 'first name', type: 'text', fieldType: 'input', placeholder: 'Enter your full name', required: true, minLength: 3 },
+    { label: 'gender', fieldType: 'select', placeholder: 'Select your Gender', required: true, options: ['Male', 'Female'], multiple: false },
+    { label: 'date of birth', fieldType: 'datePicker', placeholder: 'Select your DOB', required: true, max: new Date() },
+    { label: 'first name', type: 'text', fieldType: 'input', placeholder: 'Enter your full name', required: true, minLength: 3 },
+    { label: 'gender', fieldType: 'select', placeholder: 'Select your Gender', required: true, options: ['Male', 'Female'], multiple: false },
+    { label: 'date of birth', fieldType: 'datePicker', placeholder: 'Select your DOB', required: true, max: new Date() },
+    { label: 'first name', type: 'text', fieldType: 'input', placeholder: 'Enter your full name', required: true, minLength: 3 },
+    { label: 'gender', fieldType: 'select', placeholder: 'Select your Gender', required: true, options: ['Male', 'Female'], multiple: false },
+    { label: 'date of birth', fieldType: 'datePicker', placeholder: 'Select your DOB', required: true, max: new Date() },
+    { label: 'first name', type: 'text', fieldType: 'input', placeholder: 'Enter your full name', required: true, minLength: 3 },
+    { label: 'gender', fieldType: 'select', placeholder: 'Select your Gender', required: true, options: ['Male', 'Female'], multiple: false },
+    { label: 'date of birth', fieldType: 'datePicker', placeholder: 'Select your DOB', required: true, max: new Date() },
+    { label: 'first name', type: 'text', fieldType: 'input', placeholder: 'Enter your full name', required: true, minLength: 3 },
+    { label: 'gender', fieldType: 'select', placeholder: 'Select your Gender', required: true, options: ['Male', 'Female'], multiple: false },
+    { label: 'date of birth', fieldType: 'datePicker', placeholder: 'Select your DOB', required: true, max: new Date() },
+  ]
 
   constructor() {
     this.tableData = [

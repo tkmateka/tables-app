@@ -1,0 +1,15 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 24px;
+    box-sizing: border-box;
+
+    .input-container {
+        width: 32%;
+    }
+}
+
+.full-width {
+    width: 100%;
+}
